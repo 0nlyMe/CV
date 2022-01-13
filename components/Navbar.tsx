@@ -1,4 +1,4 @@
-import React, { useEffect, useState, VoidFunctionComponent } from 'react'
+import React, { useEffect, useState, FunctionComponent } from 'react'
 import Link from 'next/link' 
 import { useRouter } from 'next/dist/client/router'
 

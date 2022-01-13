@@ -1,4 +1,4 @@
-import { GetServerSideProps } from 'next';
+import { GetServerSideProps, GetStaticProps, GetStaticPropsContext } from 'next';
 import React from 'react'
 import ServiceCard from '../components/ServiceCard';
 import {services} from '../data'
@@ -32,8 +32,8 @@ const index = ({ endpoint }) => {
 }
 
 
-export  const getServerSideProps: GetServerSideProps = async (
-  context: GetServerSidePropsContext
+export  const getStaticProps: GetStaticProps = async (
+  context: GetStaticPropsContext
 ) => {
   // const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
   // const data = await res.json();

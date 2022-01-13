@@ -6,22 +6,20 @@ import Image from 'next/image'
 
 const ProjectsCard: FunctionComponent<{
     project: IProject;
-    showDetail: (id: null | number) => void;
 }> = ({
     project: {
         name,
         image_path,category,deployed_url,description,github_url,key_techs,id
     },
-    showDetail,
-    setshowDetail,
 }) => {
+    const [showDetail, setShowDetail] = useState(false)
 
     return (
         <div>
-            <Image src={image_path} alt={name} className="cursor-pointer" onClick={()=>setshowDetail(id)} width="300" height="150" />
+            <Image src={image_path} alt={name} className="cursor-pointer" onClick={()=>setShowDetail(true)} width="300" height="150" />
             <p className="my-2 text-center">{name}</p>
 
-            { showDetail === id &&
+            { showDetail && (
             
                 <div
                     className="absolute top-0 left-0 z-10 grid w-full md:p-10 rounded-lg
@@ -51,17 +49,17 @@ const ProjectsCard: FunctionComponent<{
                             ))}
                     </div>
     
-                    <button onClick={() => setshowDetail(null)}
+                    <button onClick={() => setShowDetail(null)}
                         className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
                         >
                         <MdClose size={30} />
                     </button>
                     </div>
                 </div>
-            }
+            )}
 
         </div>
     )
 }
 
-export default ProjectsCard
+export default ProjectsCard;
