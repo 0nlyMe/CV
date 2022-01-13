@@ -16,9 +16,9 @@ const Sidebar = () => {
     return (
         <div>
             <img
-                src="\images\anas.jpg"
+                src="file:///C:/Users/Anas/Pictures/IMG20211127185430.jpg"
                 alt="user avtar"
-                className="object-contain h-32 mx-auto rounded w-15" 
+                className="object-contain h-32 mx-auto rounded-full w-15" 
             />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-Kaushan">
                 <span className="text-green">Anas M.</span> Shaikh
