@@ -16,7 +16,7 @@ const Sidebar = () => {
     return (
         <div>
             <img
-                src="file:///C:/Users/Anas/Pictures/IMG20211127185430.jpg"
+                src="./images/anas.jpg"
                 alt="user avtar"
                 className="object-contain h-32 mx-auto rounded-full w-15" 
             />

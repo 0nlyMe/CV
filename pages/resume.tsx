@@ -18,8 +18,8 @@ function resume() {
                 <div>
                     <h5 className="my-3 text-2xl font-bold">Experiance</h5>
                     <div>
-                        <h5 className="my-2 text-xl font-bold">( '_' )</h5>
-                        <p className="font-semibold">( T_T )</p>
+                        <h5 className="my-2 text-xl font-bold">0</h5>
+                        <p className="font-semibold"></p>
                         <p className="my-3">Currently looking for opportunities to gain experiance and knowledge</p>
                     </div>
                 </div>
