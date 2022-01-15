@@ -9,8 +9,8 @@ const index = ({ endpoint }) => {
   return (
     <div className="flex flex-col px-6 pt-1 flex-grow">
       <h5 className="my-3 font-medium">
-        I am currently pursuing BCA Degree(First Year) from Gls University.
-        I have build some projects for personal use and some for learning purpose.
+        I am currently pursuing BCA(First Year) from Gls University.
+        And am super passionate and enthusiast about programming and learning new things as whole. 
       </h5>
       <div className="p-4 mt-5 bg-gray-400 flex-grow dark:bg-dark-100 "
         style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}>

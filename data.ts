@@ -17,13 +17,13 @@ export const services:Iservice[] = [
     {
         Icon: FaServer,
         title: "Backend Devlopment",
-        about: "Coming Soon", 
+        about: "I love Django and firebase as backend.", 
     },
 
     {
         Icon: AiOutlineAntDesign,
         title: "Api Devlopment",
-        about: "Coming Soon", 
+        about: "I have some experience with Api and more coming really really soon. ", 
     },
 
     {
@@ -35,7 +35,7 @@ export const services:Iservice[] = [
     {
         Icon: AiOutlineAntDesign,
         title: "UI/Ux designer",
-        about: "Coming Soon", 
+        about: "Using Figma", 
     },
 
     {
